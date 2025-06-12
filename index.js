@@ -23,7 +23,7 @@ exports.test = function () {
         },
         headers: {
             'User-Agent': 'Request-Promise',
-            'api-key': 'egdyMpHZAGrr2Bu9jibzxBUcUS29mnAL'
+            'api-key': 'some_api_key'
         },
         json: true // Automatically parses the JSON string in the response
     };
@@ -48,7 +48,7 @@ var options = {
     },
     headers: {
         'User-Agent': 'Request-Promise',
-        'api-key': 'egdyMpHZAGrr2Bu9jibzxBUcUS29mnAL'
+        'api-key': 'some_api_key'
     },
     json: true // Automatically parses the JSON string in the response
 };
